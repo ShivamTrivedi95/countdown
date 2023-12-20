@@ -7,8 +7,9 @@ export default defineConfig({
   plugins: [react()],
   // other configurations
   build: {
+    outDir: "build",
     rollupOptions: {
-      input: "./src/main.jsx",
+      input: "/src/main.jsx",
     },
   },
 });
