@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shivamtrivedi95.github.io/countdown",
+  "homepage": "https://shivamtrivedi95.github.io/countdown/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
