@@ -3,11 +3,12 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/countdown",
   plugins: [react()],
   // other configurations
   build: {
     rollupOptions: {
-      input: "path/to/main.jsx",
+      input: "./src/main.jsx",
     },
   },
 });
